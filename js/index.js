@@ -1,1 +1,1 @@
-angular.module("profissionais", []);
+angular.module("profissionais", ['ui.mask']);
