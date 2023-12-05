@@ -34,8 +34,8 @@
                     </div>
                 </div>
             </div>
-
-            <table ng-if="!cadastrarProfissional && !cadastrarProfissao" class="table table-striped table-hover">
+            <div class="card shadow">
+                <table  ng-if="!cadastrarProfissional && !cadastrarProfissao" class="table table-striped table-hover">
                 <thead>
                     <tr>
                         <th>#</th>
@@ -47,7 +47,9 @@
                         <th>Ações</th>
                     </tr>
                 </thead>
+                
                 <tbody>
+                    
                     <tr ng-repeat="profissional in profissionais ">
                         <td>{{profissional.id}}</td>
                         <td>{{profissional.nome}}</td>
@@ -63,6 +65,9 @@
                 </tbody>
                 
             </table>
+            <span ng-if="profissionais.length == 0 && !cadastrarProfissional && !cadastrarProfissao" class="text-center mb-3">Não há profissionais cadastrados</span>
+            </div>
+            
            
 
             <form class="card p-4 mt-3" ng-if="cadastrarProfissional" name="profissionalForm">
