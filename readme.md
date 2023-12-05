@@ -1,6 +1,5 @@
-# Título do projeto
+# Avaliação Técnica - Paciente 360
 
-Avaliação Técnica - Paciente 360
 
 ![image](https://github.com/RuanGabrieldev/teste-paciente-360/assets/41811305/7f21eda2-1f0e-4334-b5aa-45c2a0db1d56)
 ![image](https://github.com/RuanGabrieldev/teste-paciente-360/assets/41811305/b2b089a6-df49-4e7b-ac6e-351cf1d9abdf)
