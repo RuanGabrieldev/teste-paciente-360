@@ -59,7 +59,7 @@ angular.module("profissionais").controller("profissionaisController", ($scope, p
     profissionaisAPI.createProfissao(profissao).then((data) =>{
         $scope.cadastrarProfissao = false;
         Swal.fire({
-            title: 'Profissional criada com sucesso!!',
+            title: 'Profissão criada com sucesso!!',
             icon: 'success',
         })
         carregarProfissoes();
